@@ -1,0 +1,19 @@
+export interface Detail{
+    empNm:string;
+    hjNm:string;
+    btnDate:string;
+    polyNm:string;
+    oriNm:string;
+    sharNm:string;
+    reeleGbnNm:string;
+    electionNum:string;
+    assemTel:string;
+    assemHomep:string;
+    assemEmail:string;
+    staff:string;
+    secretary2:string;
+    secretary:string;
+    hbbyCd:string;
+    examCd:string;
+    memTitle:string;
+}

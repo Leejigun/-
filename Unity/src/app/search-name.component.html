@@ -1,0 +1,59 @@
+    
+    <div class="container">
+        
+      <br>
+      <br>
+      <br>
+      <div class="btn-group btn-group-justified">
+  <a href="/searchName" class="btn btn-primary">이름검색</a>
+  <a href="/searchParty" class="btn btn-primary">정당검색</a>
+  <a href="/searchLocation" class="btn btn-primary">지역검색</a>
+</div>
+        <div class="well">
+            <h3 class="text-center"><strong>이름으로 검색</strong></h3>
+            
+            <div class="input-group">
+                <input type="text" class="form-control" value="" id="exampleInputAmount" placeholder="이름입력">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-primary"(click)="getName(name)"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+        {{person}}
+
+<div class="container">
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>이름</th>
+      <th>선거구</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ person.empNm }}</td>
+      <td>{{ person.origNm }}</td>
+    </tr>
+  </tbody>
+</table>  
+  </div>
+<div class="container">
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>생년월일</th>
+      <th>정당명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ person.btnDate }}</td>
+      <td>{{ person.polyNm }}</td>
+    </tr>
+  </tbody>
+</table>  
+  </div>
+        
+        
+    </div>
+    

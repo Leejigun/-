@@ -1,0 +1,52 @@
+<br>
+<br>
+<br>
+<div class="container">
+
+ <div class="btn-group btn-group-justified">
+  <a href="/searchName" class="btn btn-primary">이름검색</a>
+  <a href="/searchParty" class="btn btn-primary">정당검색</a>
+  <a href="/searchLocation" class="btn btn-primary">지역검색</a>
+</div>
+  
+  <div class="well">
+    <h3 class="text-center"><strong>지역으로 검색</strong></h3>  
+  </div>
+  <div class="input-group">
+                <input type="text" class="form-control" value="" id="exampleInputAmount" placeholder="정당입력">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-primary"(click)="getName(name)"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+  
+  
+<!--전체 국회의원 목록-->
+  <div class="container">
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>이름</th>
+      <th>선거구</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of persons">
+      <td>{{ person.empNm }}</td>
+      <td>{{ person.origNm }}</td>
+    </tr>
+  </tbody>
+</table>  
+  </div>
+
+  <!--페이지네이션-->
+  <nav>
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</nav>
+
+</div>
+
+
+
