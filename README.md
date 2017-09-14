@@ -1,3 +1,3 @@
 # 우리동네 국회의원
 
-![파일](./introPDF.pdf)
+![Intro.pdf](https://github.com/Leejigun/UnityProject/introPDF.pdf)
