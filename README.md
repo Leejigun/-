@@ -7,7 +7,7 @@
 ![소개화면](./image/image05.png)
 ![소개화면](./image/image06.png)
 ![소개화면](./image/image07.png)
-[Intro.pdf](https://github.com/Leejigun/UnityProject/blob/master/introPDF.pdf)
+![Intro.pdf](https://github.com/Leejigun/UnityProject/blob/master/introPDF.pdf)
 <br>
 
 ## 2. Angular2와 Bootsrap를 통한 웹 페이지
@@ -29,4 +29,4 @@
 ![소개화면](./image/image12.png)
 
 
-[웹 링크](https://angular2-4fa2b.firebaseapp.com/)
+![웹 링크](https://angular2-4fa2b.firebaseapp.com/)
